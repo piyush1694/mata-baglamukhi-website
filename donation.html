@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#344f40">
+    <meta name="description" content="Make a UPI donation to Maa Baglamukhi Charitable Trust.">
+    <title>Donate | Maa Baglamukhi Charitable Trust</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="donation-page">
+    <a class="skip-link" href="#donation">Skip to donation options</a>
+    <header class="donation-page-header">
+      <a class="brand" href="index.html" aria-label="Maa Baglamukhi home">
+        <span class="brand-mark" aria-hidden="true">ह्लीं</span>
+        <span class="brand-copy"><strong>Maa Baglamukhi</strong><small>A place for faith &amp; seva</small></span>
+      </a>
+      <a class="back-home" href="index.html"><span aria-hidden="true">←</span> Back to home</a>
+    </header>
+
+    <main class="donation-page-main" id="donation">
+      <section class="donation-qr" aria-labelledby="donate-title">
+        <div class="donation-qr-copy">
+          <p class="eyebrow"><span>UPI</span> Direct donation</p>
+          <h1 id="donate-title">Make an offering<br>with UPI.</h1>
+          <p>Scan either QR code, or tap it on your phone to open your preferred UPI payment app.</p>
+          <a class="text-link" href="upi://pay?pa=8607607209m%40pnb&amp;pn=Baglamukhi%20Sadhana%20Evam%20Dharmarth%20Trust&amp;cu=INR">Open payment app <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="donation-qr-codes" aria-label="UPI payment QR codes">
+          <a class="qr-payment" href="upi://pay?pa=8607607209m%40pnb&amp;pn=Baglamukhi%20Sadhana%20Evam%20Dharmarth%20Trust&amp;cu=INR" aria-label="Open the first Baglamukhi Trust UPI payment QR code in a payment app">
+            <img src="assets/pnb-upi-qr-full.jpeg" alt="PNB UPI payment QR code for Baglamukhi Sadhana Evam Dharmarth Trust">
+            <span><strong>PNB UPI</strong><small>Tap to pay</small></span>
+          </a>
+          <a class="qr-payment" href="upi://pay?pa=8607607209m%40pnb&amp;pn=Baglamukhi%20Sadhana%20Evam%20Dharmarth%20Trust&amp;cu=INR" aria-label="Open the second Baglamukhi Trust UPI payment QR code in a payment app">
+            <img src="assets/pnb-upi-qr.jpeg" alt="UPI payment QR code for Baglamukhi Sadhana Evam Dharmarth Trust">
+            <span><strong>UPI QR</strong><small>Tap to pay</small></span>
+          </a>
+        </div>
+      </section>
+      <p class="donation-page-note">Payments are processed by your chosen UPI app. For booking or contribution details, please speak with the trust directly.</p>
+    </main>
+  </body>
+</html>
